@@ -6,7 +6,9 @@
 
 .box{
     
-        
+    /* height: 150px; */
+    flex-basis: 40%;   
+    /* margin-top: 20px; */
 }
 
 .box-1{
@@ -94,3 +96,43 @@ ul{
     align-items: stretch;
     align-content: space-between;
 }
+
+.new-wrapper{
+    margin-top: 20px;
+    display: flex;
+    height: 800px;
+    background-color: blue;
+    justify-content: space-around;
+    padding: 20px;
+    /* column-gap: 5px; */
+    flex-flow: row wrap;
+    row-gap: 20px;
+    /* gap: 10px; */
+}
+
+.box-5{
+    background-color: red;
+    order: -1;
+    
+}
+
+.box-6{
+    background-color: green;
+    /* flex-grow: 1; */
+}
+
+.box-7{
+    background-color: indianred;
+    flex-shrink: 3;
+}
+
+.box-8{
+    background-color: hotpink;
+    /* flex-grow: 1; */
+}
+
+.box-9{
+    background-color: darkviolet;
+    /* flex-grow: 2; */
+}
+
