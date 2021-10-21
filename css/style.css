@@ -113,7 +113,7 @@ ul{
 .box-5{
     background-color: red;
     order: -1;
-    
+    flex: 1 2 20%;
 }
 
 .box-6{
