@@ -5,8 +5,8 @@
 }
 
 .box{
-    width: 200px;
-    height: 200px;    
+    
+        
 }
 
 .box-1{
@@ -63,6 +63,7 @@
     justify-content: space-around;
     height: 300px;
     align-items: center;
+    
 }    
 
 ul{
@@ -77,4 +78,19 @@ ul{
 
 .menu{
     width: 40%;
+}
+
+.logo, .menu li{
+    background-color: red;
+}
+
+.box-edit{
+     align-self: flex-end; 
+}
+
+.wrapper-4{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
 }
