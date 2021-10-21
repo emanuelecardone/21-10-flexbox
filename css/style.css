@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.box{
+    width: 200px;
+    height: 200px;    
+}
+
+.box-1{
+    background-color: red;
+}
+
+.box-2{
+    background-color: blue;
+}
+
+.box-3{
+    background-color: green;
+}
+
+.child{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 1px 0 1px 5px;
+}
+
+.wrapper{
+    height: 800px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    /* display: column-reverse */
+    justify-content: center; /*main axis*/
+    /* 
+    justify-content: space-around;
+    justify-content: space-between; 
+    */
+    align-items: center; /*cross axis*/
+}
